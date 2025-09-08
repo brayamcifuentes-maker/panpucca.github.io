@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="icon" type="image/png" href="img/PanPuca_logo_3.png">
+    <title>PanPuca - Inicio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilo_productos.css">
+</head>
+<body>
+    <!--ENCABEZADO-->
+   <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/PanPuca_logo_4.png" alt="logo_principal" class="logo" >
+                </a>
+
+                <!-- Boton hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Boton carrito de compra-->
+    <div class="container-fluid my-3">
+        <div class="d-flex gap-2 w-100 justify-content-end">
+            <a href="carrito.html" class="btn btn-primary"> Mi Carrito  <i class="bi bi-cart3"></i></a>
+            
+        </div>
+    </div>
+
+
+
+    <!--MASCOTA-->
+    <div class="text-center ">
+        <img src="img/PanPuca_logo_productos.png" alt="logo_empresa" class="mascota">
+    </div>
+    
+    <!--Titulo -->
+    <h2 class="text-center fw-bold mt-1 mb-5">Nuestros Productos</h2> 
+
+    <!--Tarjetas-->
+    <div class="container my-5">
+        <div class="row p-5 g-4">
+
+            <!-- Tarjeta 1 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card1_marraqueta.png" class="card-img-top" alt="marraqueta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Marraqueta</h5>
+                        <p class="card-text">$2000 x Kg</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Marraqueta" data-precio="2000" data-imagen="img/card1_marraqueta.png" data-uni="KG">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card2_hallulla.png" class="card-img-top" alt="hallulla">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Hallulla Clásica</h5>
+                        <p class="card-text">$2200 x Kg</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Hallulla Clásica" data-precio="2200" data-imagen="img/card2_hallulla.png" data-uni="KG">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card3_dobladitas.png" class="card-img-top" alt="dobladitas">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Dobladita Clásica</h5>
+                        <p class="card-text">$2300 x Kg</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Dobladita Clásica" data-precio="2300" data-imagen="img/card3_dobladitas.png" data-uni="KG">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card4_berlines.png" class="card-img-top" alt="berlines">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berlines con Pastelera</h5>
+                        <p class="card-text">$900 x Unidad</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Berlines con Pastelera" data-precio="900" data-imagen="img/card4_berlines.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card5_bocadoDeDama.png" class="card-img-top" alt="bocadoDama">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bocado de Dama</h5>
+                        <p class="card-text">$2400 x Kg</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Bocado de Dama" data-precio="2400" data-imagen="img/card5_bocadoDeDama.png" data-uni="KG">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 6 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card6_trenzas.png" class="card-img-top" alt="trenza">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Trenza de Pastelera</h5>
+                        <p class="card-text">$1800 x Unidad</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Trenza de Pastelera" data-precio="1800" data-imagen="img/card6_trenzas.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 7 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card7_DobleChocolate.png" class="card-img-top" alt="torta_chocolate">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Torta Doble Chocolate 12 Personas</h5>
+                        <p class="card-text">$18000 x Unidad</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Torta Doble Chocolate 12 Personas" data-precio="18000" data-imagen="img/card7_DobleChocolate.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 8 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card8_Oreo.png" class="card-img-top" alt="torta_oreo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Torta de Oreo 12 Personas</h5>
+                        <p class="card-text">$15000 x Unidad</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Torta de Oreo 12 Personas" data-precio="15000" data-imagen="img/card8_Oreo.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 9 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card9_Zanahoria.png" class="card-img-top" alt="torta_zanahoria">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Torta de Zanahoria 12 Personas</h5>
+                        <p class="card-text">$15000 x Unidad</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Torta de Zanahoria 12 Personas" data-precio="15000" data-imagen="img/card9_Zanahoria.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 10 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card10_baguette.png" class="card-img-top" alt="pan_bagguette">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pan Baguette</h5>
+                        <p class="card-text">$1200 x Unidad</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Pan Baguette" data-precio="1200" data-imagen="img/card10_baguette.png " data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 11 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card11_moldeIntegral.png" class="card-img-top" alt="pan_integral">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pan Integral Fuch 620g</h5>
+                        <p class="card-text">$3000</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Pan Integral Fuch 620g" data-precio="3000" data-imagen="img/card11_moldeIntegral.png data-uni="Unidad"">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 12 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card12_moldeBlanco.png" class="card-img-top" alt="pan_blanco">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pan Blanco Ideal 750g</h5>
+                        <p class="card-text">$2800</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Pan Blanco Ideal 750g" data-precio="2800" data-imagen="img/card12_moldeBlanco.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 13 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card13_donas.png" class="card-img-top" alt="donas">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pack 4 Donas</h5>
+                        <p class="card-text">$3600</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Pack 4 Donas" data-precio="3600" data-imagen="img/card13_donas.png" data-uni="4 Unidades">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 14 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card14_empanada.png" class="card-img-top" alt="empanada">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Empanada de Pino</h5>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Empanada de Pino" data-precio="2000" data-imagen="img/card14_empanada.png" data-uni="Unidad">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 15 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card15_masaSopaipa.png" class="card-img-top" alt="masa_sopaipilla">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Masa Sopaipilla</h5>
+                        <p class="card-text">$1800 x 20 Unidades</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Masa Sopaipilla" data-precio="1800" data-imagen="img/card15_masaSopaipa.png" data-uni="20 Unidades">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 16 -->
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/card16_masaEmQueso.png" class="card-img-top" alt="emp_queso">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Empanadas de queso</h5>
+                        <p class="card-text">$3900 x 12 Unidades</p>
+                        <a href="#" class="btn btn-primary mt-auto add-to-cart" 
+                           data-nombre="Empanadas de queso" data-precio="3900" data-imagen="img/card16_masaEmQueso.png" data-uni="Docena">
+                           Añadir al Carrito <i class="bi bi-cart3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- end row -->
+    </div><!-- end container -->
+
+    <!--FOOTER-->
+    <footer class="footer mt-5 py-4">
+        <div class="container text-center">
+
+            <p class="mb-1">&copy; <span id="anio"></span> PanPucca. Todos los derechos reservados.</p>
+            <div class="social-icons mt-2">
+                <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/carrito.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
