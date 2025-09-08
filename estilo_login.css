@@ -1,0 +1,157 @@
+/* -------------------- COLORES PRINCIPALES -------------------- */
+:root {
+    --pucca-rojo: #E60026;
+    --pucca-negro: #1A1A1A;
+    --pucca-blanco: #FFFFFF;
+    --pucca-rosa: #FF6FB5;
+    --pucca-amarillo: #FFD700;
+}
+
+/* -------------------- BODY -------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--pucca-blanco);
+    color: var(--pucca-negro);
+}
+
+/* -------------------- NAVBAR -------------------- */
+.navbar {
+    background-color: var(--pucca-rojo) !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: var(--pucca-blanco) !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: var(--pucca-amarillo) !important;
+}
+
+/* -------------------- LOGO -------------------- */
+.navbar-brand img.logo {
+    max-height: 80px;
+    width: auto;
+}
+
+
+
+
+
+.form-container {
+    background-color: var(--pucca-blanco);
+    border: 2px solid var(--pucca-rojo);
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.form-container input {
+    border: 2px solid var(--pucca-rojo);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-container input:focus {
+    border-color: var(--pucca-rosa);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 111, 181, 0.5);
+}
+
+/* Text Area */
+.form-container textarea {
+    border: 2px solid var(--pucca-rojo);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-container textarea:focus {
+    border-color: var(--pucca-rosa);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 111, 181, 0.5);
+}
+
+/* Botón */
+.btn-login {
+    background-color: var(--pucca-negro);
+    color: var(--pucca-blanco);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn-login:hover {
+    background-color: var(--pucca-rosa);
+}
+
+
+
+
+
+
+
+/* -------------------- TITULOS -------------------- */
+h2, h5 {
+    color: var(--pucca-rojo);
+}
+
+
+/* -------------------- CENTRADOS Y MARGENES -------------------- */
+.text-center {
+    text-align: center;
+}
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+    background-color: var(--pucca-rojo);
+    color: var(--pucca-blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: var(--pucca-blanco);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer a:hover {
+    color: var(--pucca-amarillo);
+}
+
+.social-icons i {
+    transition: transform 0.3s;
+}
+
+.social-icons i:hover {
+    transform: scale(1.3);
+}
+
+
+.mascota{
+    margin-top: 0%;
+    max-height: 200px;
+    width: auto;
+}
+
+
+.contact-info{
+    border-color: #E60026;
+}
